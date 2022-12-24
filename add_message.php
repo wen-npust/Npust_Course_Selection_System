@@ -12,7 +12,6 @@
     echo"<center><form method='POST' action='add_message_action.php'>
     姓名:<input type ='text' name='name' ><br>
     內容:<input type = 'text' name='content'><br>
-    <input type = 'submit' value='送出'>
     <input type='hidden' name = 'cId' value='$cId'>
     </from></center>";
     ?>
