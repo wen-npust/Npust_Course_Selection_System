@@ -9,7 +9,11 @@
 <body>
     <?php
     include ('sql.php');
+<<<<<<< HEAD
     echo "test";
+=======
+	echo "hello world";
+>>>>>>> fc79173971954f2e88e12e6fcbf7f70f87c53881
     $cId = $_GET['cId'];
     session_start();
     $account = $_SESSION['aId'];
